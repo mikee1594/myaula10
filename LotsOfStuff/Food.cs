@@ -34,6 +34,11 @@
             Type = type;
             Weight = weight;
         }
+        public override string ToString()
+        {
+            return Type.ToString() + " com " +  days + " dias "   ;
+        }
 
     }
 }
+

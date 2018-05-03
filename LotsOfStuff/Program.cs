@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Aula10
+namespace Aula10 // (namespace.tipo )
 {
     /// <summary>Programa para testar o projeto</summary>
     public class Program
