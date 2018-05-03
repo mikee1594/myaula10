@@ -39,12 +39,13 @@ namespace Aula10 // (namespace.tipo )
 
             // Quantos itens tem o jogador na mochila?
             Console.WriteLine($"Nº de itens na mochila: {p.BagOfStuff.StuffCount}");
-
+            Console.WriteLine($"valor da mochila: {p.BagOfStuff.StuffCount}");
             // Percorrer itens na mochila e tentar "imprimir" cada um
             for (int i = 0; i < p.BagOfStuff.StuffCount; i++)
             {
                 IStuff aThing = p.BagOfStuff.GetThing(i);
                 Console.WriteLine(aThing);
+               
             }
 
         }

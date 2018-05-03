@@ -36,7 +36,7 @@
         }
         public override string ToString()
         {
-            return Type.ToString() + " com " +  days + " dias "   ;
+            return Type.ToString() + " com " +  days + " dias "  ;
         }
 
     }
